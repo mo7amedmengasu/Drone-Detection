@@ -1,0 +1,71 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+dl_venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and local databases
+*.log
+mlflow.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model outputs and experiment artifacts
+runs/*
+!runs/drone_object_detection_yolo11n_img640_e50/
+!runs/drone_object_detection_yolo11n_img640_e50/**
+!runs/drone_object_detection_yolo11s_img640_e50/
+!runs/drone_object_detection_yolo11s_img640_e50/**
+!runs/drone_object_detection_yolov8n_img640_e50/
+!runs/drone_object_detection_yolov8n_img640_e50/**
+!runs/drone_object_detection_yolov8s_img640_e50/
+!runs/drone_object_detection_yolov8s_img640_e50/**
+outputs/
+mlruns/
+
+# Ignore downloaded and exported model binaries outside the kept trained runs
+/*.pt
+/*.pth
+/*.onnx
+/*.engine
+/*.torchscript
+*.onnx
+*.engine
+*.torchscript
+
+# Dataset and generated data artifacts
+data/
+
+# DVC cache and local state
+.dvc/cache/
+.dvc/tmp/

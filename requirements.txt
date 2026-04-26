@@ -1,0 +1,11 @@
+ipykernel
+ultralytics
+opencv-python
+matplotlib
+numpy
+dvc
+mlflow
+pandas
+tqdm
+PyYAML
+streamlit
