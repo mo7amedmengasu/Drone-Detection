@@ -50,7 +50,6 @@ runs/*
 !runs/drone_object_detection_yolov8n_img640_e50/**
 !runs/drone_object_detection_yolov8s_img640_e50/
 !runs/drone_object_detection_yolov8s_img640_e50/**
-outputs/
 mlruns/
 
 # Ignore downloaded and exported model binaries outside the kept trained runs
@@ -69,3 +68,30 @@ data/
 # DVC cache and local state
 .dvc/cache/
 .dvc/tmp/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.lol
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+*.tex
